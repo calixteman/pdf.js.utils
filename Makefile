@@ -1,4 +1,4 @@
-REPO = git@github.com:brendandahl/pdf.js.utils.git
+REPO = git@github.com:calixteman/pdf.js.utils.git
 BUILD_DIR = build
 BASE_VERSION = ec7ead2b5a0fa898151d7c67b4f0f281a62e4a70
 BUILD_NUMBER = git log --format=oneline $(BASE_VERSION).. | wc -l | awk '{print $$1}'
